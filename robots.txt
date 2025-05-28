@@ -1,3 +1,27 @@
 User-agent: *
 Allow: /
 Sitemap: https://caves.health/sitemap.txt
+
+User-agent: *
+Allow: /
+
+# Explicitly allow LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
+Sitemap: https://caves.health/sitemap.txt
